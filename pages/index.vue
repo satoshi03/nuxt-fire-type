@@ -156,7 +156,7 @@ export default {
   methods: {
     updateMessage () {
       if (this.isStatus("ready")) {
-        return "プログラムに関する単語が10問出題"
+        return "プログラムに関する単語を" + this.questionNum + "問出題"
       }
 
       if (this.isStatus("starting")) {
@@ -167,7 +167,6 @@ export default {
 
         // check answer is correct
         if (this.isCorrectAnwser()) {
-          console.log(this.answer)
           this.lastCorrectKeyIndex = this.answer.length
           this.lastKeyIsCorrect = true
         } else {

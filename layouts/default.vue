@@ -68,7 +68,6 @@ export default {
       ref.orderByChild('sortKey').limitToLast(20).once('value', snapshot => {
         const ss = snapshot.val()
         this.setRanking(ss)
-        console.log(ss)
       })
       this.dialog = true
     },
@@ -82,7 +81,6 @@ export default {
         if (a.score > b.score) return -1;
         return 0;
       });
-      console.log(ranking)
       return ranking
     }
   }
