@@ -4,6 +4,8 @@
 
 ![demo](https://media.giphy.com/media/dQbBNwiY2rJflU756I/giphy.gif)
 
+[Demo Site](https://codetype-qtd0hetwd.now.sh/)
+
 ## Build Setup
 
 ``` bash
