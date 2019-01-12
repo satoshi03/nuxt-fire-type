@@ -2,6 +2,8 @@
 
 > Browser based typing game having ranking func via firebase, JavaScript and NuxtJS.
 
+![demo](https://media.giphy.com/media/dQbBNwiY2rJflU756I/giphy.gif)
+
 ## Build Setup
 
 ``` bash
